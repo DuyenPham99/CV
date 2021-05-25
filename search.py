@@ -4,7 +4,6 @@ from cv2 import resize
 from colordescriptor import ColorDescriptor
 from searcher import Searcher
 import argparse
-import matplotlib.pyplot as plt
 import cv2
 
 # construct the argument parser and parse the arguments
