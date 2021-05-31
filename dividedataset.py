@@ -23,12 +23,12 @@ path_train = args["dataset_train"]
 if (path.isdir(path_train) == False):
     os.mkdir(path_train)
 
-for i in range(0, 4):
+for i in range(0, 800):
     data = im.fromarray(X_train[i])
     cv2.imwrite(os.path.join(path_train, str(i) + "_train.png"), X_train[i])
     cv2.waitKey(0)
 
-for i in range(0, 4):
+for i in range(0, 200):
     data = im.fromarray(X_test[i])
     cv2.imwrite(os.path.join(path_test, str(i) + "_test.png"), X_test[i])
     cv2.waitKey(0)
