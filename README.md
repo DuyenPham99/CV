@@ -7,8 +7,10 @@
 Bước 1: Chia tập dữ liệu
 
 python dividedataset.py --dataset_test <Tên folder tập test> --dataset_train <Tên folder tập train>
+
 Ví dụ: python dividedataset.py --dataset_test test --dataset_train train
-(Bước này để lấy ảnh từ tập cifar10, chia thành 2 tập train,test và lưu vào máy tính)
+
+(Bước này để lấy ảnh từ tập cifar10, chia thành 2 tập train (gồm 800 ảnh),test(gồm 200 ảnh) và lưu vào máy tính)
 ảnh trong tập train: i_train.png ( i = 0 .... 799)
 ảnh trong tập test: i_test.png ( i = 0 .... 299)
 
