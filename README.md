@@ -2,6 +2,8 @@
 # Dùng tập dữ liệu: cifar10
 # Sử dụng: color histogram
 
+#Link tham khảo: https://www.pyimagesearch.com/2014/12/01/complete-guide-building-image-search-engine-python-opencv/?fbclid=IwAR3Kbk84b7NcnB8IQGOKCrurlvx0QiZ7ZDJef0avm5Yv-TWuBtlBH_6owGg
+
 Bước 1: Chia tập dữ liệu
 
 python dividedataset.py --dataset_test <Tên folder tập test> --dataset_train <Tên folder tập train>
